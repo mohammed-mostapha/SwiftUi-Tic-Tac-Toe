@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D99103362809FE99005FDE25 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99103352809FE99005FDE25 /* GameViewModel.swift */; };
+		D9B5B057280A2FC300CADFDD /* Turning.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D9B5B056280A2FC300CADFDD /* Turning.ttf */; };
 		D9BA4B182808C6E1000475EE /* Tic_Tac_ToeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BA4B172808C6E1000475EE /* Tic_Tac_ToeApp.swift */; };
 		D9BA4B1A2808C6E1000475EE /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BA4B192808C6E1000475EE /* GameView.swift */; };
 		D9BA4B1C2808C6E2000475EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9BA4B1B2808C6E2000475EE /* Assets.xcassets */; };
@@ -17,6 +18,8 @@
 
 /* Begin PBXFileReference section */
 		D99103352809FE99005FDE25 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		D9B5B056280A2FC300CADFDD /* Turning.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Turning.ttf; sourceTree = "<group>"; };
+		D9B5B058280A330100CADFDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		D9BA4B142808C6E1000475EE /* Tic-Tac-Toe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tic-Tac-Toe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9BA4B172808C6E1000475EE /* Tic_Tac_ToeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tic_Tac_ToeApp.swift; sourceTree = "<group>"; };
 		D9BA4B192808C6E1000475EE /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
@@ -36,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D9B5B055280A2FA500CADFDD /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D9B5B056280A2FC300CADFDD /* Turning.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		D9BA4B0B2808C6E1000475EE = {
 			isa = PBXGroup;
 			children = (
@@ -55,6 +66,8 @@
 		D9BA4B162808C6E1000475EE /* Tic-Tac-Toe */ = {
 			isa = PBXGroup;
 			children = (
+				D9B5B058280A330100CADFDD /* Info.plist */,
+				D9B5B055280A2FA500CADFDD /* Fonts */,
 				D9BA4B172808C6E1000475EE /* Tic_Tac_ToeApp.swift */,
 				D9BA4B192808C6E1000475EE /* GameView.swift */,
 				D99103352809FE99005FDE25 /* GameViewModel.swift */,
@@ -132,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9BA4B1F2808C6E2000475EE /* Preview Assets.xcassets in Resources */,
+				D9B5B057280A2FC300CADFDD /* Turning.ttf in Resources */,
 				D9BA4B1C2808C6E2000475EE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +292,9 @@
 				DEVELOPMENT_TEAM = 2T35XX5CJS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tic-Tac-Toe/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -307,6 +324,9 @@
 				DEVELOPMENT_TEAM = 2T35XX5CJS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tic-Tac-Toe/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

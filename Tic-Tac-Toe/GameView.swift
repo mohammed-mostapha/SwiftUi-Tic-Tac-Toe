@@ -15,6 +15,10 @@ struct GameView: View {
         GeometryReader { geometry in
             VStack {
                 Spacer()
+                
+                Text("Tic Tac Toe")
+                    .font(.system(size: 50, weight: .semibold, design: .rounded)).foregroundColor(.white)
+                Spacer()
                 LazyVGrid(columns: viewModel.columns, spacing: 5) {
                     ForEach(0..<9) { i in
                         ZStack {
@@ -35,7 +39,7 @@ struct GameView: View {
                       dismissButton: .default(alertItem.buttonTitle, action: { viewModel.resetGame() }))
                 
             })
-        }
+        }.background(Color.purple).opacity(0.5)
     }
 }
 
@@ -62,8 +66,7 @@ struct GameCircleView: View {
     var proxy: GeometryProxy
     
     var body: some View {
-        Circle().foregroundColor(.red)
-            .opacity(0.5)
+        Circle().foregroundColor(.white)
             .frame(width: proxy.size.width / 3 - 15,
                    height: proxy.size.width / 3 - 15)
     }
@@ -75,6 +78,6 @@ struct PlayerIndicator: View {
         Image(systemName: systemImageName)
             .resizable()
             .frame(width: 40, height: 40)
-            .foregroundColor(.white)
+            .foregroundColor(.black)
     }
 }
